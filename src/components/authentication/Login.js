@@ -55,13 +55,14 @@ export default function Login() {
             <Button
               disabled={loading}
               className="w-100 mt-2"
+              variant="outline-primary"
               type="submit"
               onClick={handleClick}
             >
-              Demo Credentails
+              Login as Guest
             </Button>
           </Form>
-          <div className="w-100 text-center mt-3">
+          <div className="w-100 text-center mt-3 outline-info">
             <Link to="/forgot-password">Forgot Password?</Link>
           </div>
         </Card.Body>
